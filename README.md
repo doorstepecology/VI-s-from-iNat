@@ -2,7 +2,7 @@ Doorstep Ecology VI Score Calculator
 
 An R-based tool designed to calculate Vegetation Integrity (VI) scores for plant communities using observations exported from iNaturalist, aligned with the NSW Biodiversity Assessment Method (BAM).
 
-***this repo is a work-in-progress,  and will be updated asap. A couple of key files are yet to be published. For updates contact doorstepecology@gmail.com
+***this repo is a work-in-progress. For updates contact doorstepecology@gmail.com
 
 📄 Overview
 
@@ -10,11 +10,6 @@ This project provides an automated workflow in R to:
 
 Standardize iNaturalist observation data and annotate them with NSW bionet growth form groups
 Compute Vegetation Integrity (VI) scores on the above using NSW BAM calculation formulas.
-
-🛠️ Requirements & Setup Prerequisites
-
-An iNaturalist account, or a copy of the data export
-R with tidyverse
 
 Data Inputs:
 observations-*.csv: Exported iNaturalist observations (please note, the observations need to be annotated with observation fields in line with a specific methodology)
